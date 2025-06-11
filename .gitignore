@@ -1,0 +1,409 @@
+# Model Optimization Agent - .gitignore
+
+# ==============================================================================
+# Python
+# ==============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# PyCharm
+.idea/
+
+# ==============================================================================
+# uv (Package Manager)
+# ==============================================================================
+
+# uv lock file (optional - some prefer to commit this)
+uv.lock
+
+# uv cache directory
+.uv/
+
+# ==============================================================================
+# Machine Learning & AI
+# ==============================================================================
+
+# PyTorch
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Model files (large binary files)
+models/
+model_cache/
+checkpoints/
+saved_models/
+*.bin
+*.h5
+*.pkl
+*.pickle
+*.joblib
+
+# HuggingFace cache
+.cache/
+~/.cache/huggingface/
+transformers_cache/
+diffusers_cache/
+
+# Datasets cache
+datasets_cache/
+.datasets/
+
+# Weights & Biases
+wandb/
+
+# TensorBoard logs
+logs/
+tensorboard_logs/
+runs/
+
+# MLflow
+mlruns/
+
+# ==============================================================================
+# Project Specific
+# ==============================================================================
+
+# Benchmark results
+benchmark_results/
+results/
+outputs/
+*.json
+!pyproject.toml
+
+# Model downloads and cache
+downloaded_models/
+cache/
+temp_models/
+
+# Generated data
+data/
+datasets/
+test_data/
+
+# Gradio temporary files
+gradio_cached_examples/
+flagged/
+
+# ==============================================================================
+# Authentication & Secrets
+# ==============================================================================
+
+# HuggingFace tokens
+.huggingface_token
+hf_token.txt
+*.token
+auth.json
+
+# API keys and secrets
+.env.local
+.env.production
+.env.development
+secrets.json
+config.ini
+credentials.json
+
+# SSH keys
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+
+# ==============================================================================
+# Operating System
+# ==============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ==============================================================================
+# Development Tools
+# ==============================================================================
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+[._]*.s[a-v][a-z]
+!*.svg
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+Session.vim
+Sessionx.vim
+.netrwhist
+*~
+tags
+[._]*.un~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ==============================================================================
+# Build & Compilation
+# ==============================================================================
+
+# C/C++ extensions
+*.o
+*.so
+*.dylib
+*.dll
+
+# Rust
+target/
+
+# Go
+*.exe
+*.exe~
+*.test
+*.out
+
+# ==============================================================================
+# Documentation
+# ==============================================================================
+
+# Generated docs
+docs/_build/
+docs/build/
+site/
+
+# ==============================================================================
+# Temporary Files
+# ==============================================================================
+
+# General temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# ==============================================================================
+# GPU/CUDA specific
+# ==============================================================================
+
+# CUDA cache
+.nv/
+
+# ==============================================================================
+# Jupyter Notebooks (optional)
+# ==============================================================================
+
+# Uncomment these if you don't want to track notebook outputs
+# *.ipynb
+# .ipynb_checkpoints/
+
+# But keep the notebooks themselves
+!notebooks/*.ipynb
+
+# ==============================================================================
+# Custom Project Exclusions
+# ==============================================================================
+
+# Add any project-specific files to ignore here
+# examples:
+# config_local.py
+# test_outputs/
+# debug_*
