@@ -1,4 +1,4 @@
-# Model Benchmark Agent
+# Model Optimization Agent
 
 A modular, simplified model benchmarking agent using **optimum-quanto** for quantization with Gradio web interface and MCP server support.
 
