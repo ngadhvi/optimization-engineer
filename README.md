@@ -11,6 +11,10 @@ A modular, simplified model benchmarking agent using **optimum-quanto** for quan
 - **Cross-Platform**: CUDA, MPS (Apple Silicon), and CPU support
 - **Comprehensive Metrics**: Throughput, latency, memory, and perplexity
 
+## 🎥 Demo Video
+
+[Link to demo video showing MCP server in action](https://www.loom.com/share/5ff8fde48e4a4390899b0d86975f696d?sid=e96f155a-b7ea-494e-b66b-1c1e4032c154)
+
 ## 📁 Project Structure
 
 ```
