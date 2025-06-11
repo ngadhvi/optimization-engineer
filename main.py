@@ -10,8 +10,8 @@ import asyncio
 import sys
 
 def main():
-    parser = argparse.ArgumentParser(description="Model Benchmark Agent")
-    parser.add_argument("mode", choices=["gradio", "mcp", "cli"], 
+    parser = argparse.ArgumentParser(description="Model Optimization Agent")
+    parser.add_argument("mode", choices=["gradio", "cli"], 
                        help="Interface mode: gradio (web), mcp (server), or cli (command line)")
     
     args, remaining = parser.parse_known_args()
