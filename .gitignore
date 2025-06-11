@@ -39,6 +39,10 @@ MANIFEST
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
+.gradio/certificate.pem
+core/__pycache
+interfaces/__pycache__
+models/__pycache__
 
 # Unit test / coverage reports
 htmlcov/
