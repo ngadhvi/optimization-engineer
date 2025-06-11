@@ -50,6 +50,8 @@ huggingface-cli login
 uv run python main.py gradio
 ```
 Access at `http://localhost:7860`
+OR
+Copy the generated MCP server URL to your Host's integration to access the tool through Claude Desktop.
 
 ### Command Line
 ```bash
